@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Montserrat:wght@100;200;300;400;500;700;900&family=Raleway:wght@300;400&family=Roboto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section{
+  background-color: #000;
+}
+.container{
+  margin: 0 125px;
+}
+p{
+  font-family: Roboto,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #d8d8d8;
+}
+/* nav Start */
+nav {
+  background-color: #000;
+  height: 10vh;
+  padding: 0 125px;
+  width: 100%;
+  position: fixed;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: 900;
+  color: #ffff;
+}
+.nav-link ul {
+  list-style: none;
+}
+.nav-link ul li {
+  display: inline;
+}
+.nav-link ul li a {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 20px;
+  color: #ffff;
+}
+
+/* nav End  */
+
+/* hero-section Start*/
+.hero {
+  background: url("img/home.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 562px;
+  
+}
+
+.hero-section h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 120px;
+  
+  height: 562px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  line-height: 120px;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  text-transform: uppercase;
+}
+/* hero-section End*/
+
+/* img-card-secton Start*/
+
+/* .img-card-secton{
+    background-color: #000; 
+} */
+.img-card{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 132px;
+}
+.card{
+    background: url("img/banner-bg-1.jpg");
+    width: 345px;
+    height: 265px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: -60px;
+  margin-right: 30px;
+}
+.card3{
+    margin-right: 0;
+}
+.card img{
+    width: 32px;
+    height: 45px;
+}
+
+.card h4{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+    line-height: 1.438em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.card h6{
+    font-family: 'Alegreya', serif;
+    font-size: 19px;
+    line-height: 1.556em;
+    color: #d8d8d8;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* img-card-secton End*/
+
+/* COMPANY VALUES section start */
+
+.company-value{
+  display: flex;
+ 
+}
+.row1{
+  width: 650px;
+  margin-right: 110px;
+}
+.row1 h3{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 1;
+    text-transform: uppercase;
+    color: #fff;
+}
+.row1 h6{
+  font-size: 19px;
+  font-family: 'Alegreya',serif;
+    color: #d8d8d8;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 18px;
+    width: 377px;
+}
+.row1 p{
+  /* font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #d8d8d8; */
+    margin-top: 10px;
+    width: 490px;
+}
+.row2{
+  width: 257px;
+}
+.row2 h4{
+  font-family: 'Montserrat',sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.row2 p{
+  font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #d8d8d8;
+    margin: 10px 0;
+}
+
+/* COMPANY VALUES section end */
+
+/* service section start */
+.service{
+  padding-top: 140px;
+}
+.service .row{
+  display: flex;
+  margin-bottom: 65px;
+}
+.service-one{
+
+  margin-right: 23px;
+  /* display: flex; */
+}
+
+/* .service-one .item1 img{
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  
+} */
+.service-one h5{
+
+  line-height: 1.2em;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    color: red;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.service-one p{
+ 
+  font-family: 'Roboto',sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: red;
+  margin-top: 17px;
+  width: 292px;
+}
+
+/* service section end */
+
+
+/* THE COMPANY HISTORY section strat */
+.history-two{
+  text-align: center;
+}
+.history h6{
+  padding-top: 65px;
+  font-size: 23px;
+  margin-bottom: 5px;
+  line-height: 1.556em;
+  font-family: 'Alegreya',serif;
+  color: #d8d8d8;
+  font-weight: 400;
+  font-style: italic;
+
+}
+
+.history h2{
+  font-family: 'Montserrat',sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 48px;
+    line-height: 1.167em;
+    font-weight: 300;
+}
+
+.history .line-break{
+  width: 50px;
+    border-bottom: 1px solid #9c9c9c;
+    padding-top: 18px;
+    margin: 0 auto 100px auto;
+    display: inline-block;
+    
+}
+.li-list{
+  background-color: #1B1B1B;
+  padding: 38px 56px 0 56px;
+  width: calc(50% + 10px);
+  margin-right: -20px;
+}
+.li-list p{
+  margin: 25px 0;
+}
+.li-list li.item{
+  list-style: none;
+  display: inline-block;
+  padding: 14px 25px;
+  font-family: 'Raleway',sans-serif;
+  font-size: 12px;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  color: #fff;
+  border-bottom: 1px solid rgba(114,114,114,.6);
+}
+.elementor-widget-container{
+  display: flex;
+}
+.li-list-two {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 57px;
+}
+.li-list-two li{
+  font-family:  'Roboto',sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: #d8d8d8;
+}
+.elementor-widget-container .arch-img img{
+  width: 560px;
+  height: 460px;
+}
+
+/* THE COMPANY HISTORY section end */
